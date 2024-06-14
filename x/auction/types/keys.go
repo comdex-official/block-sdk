@@ -2,8 +2,10 @@ package types
 
 const (
 	// ModuleName is the name of the auction module
-	ModuleName = "auction"
-
+	// ModuleName = "auction"
+	// module name conflicting with comdex auction module
+	ModuleName = "auctionmev"
+	
 	// StoreKey is the default store key for the auction module
 	StoreKey = ModuleName
 
